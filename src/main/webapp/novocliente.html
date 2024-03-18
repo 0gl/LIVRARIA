@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Novo Cliente | Livraria</title>
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Novo Cliente</h1>
+	<form name="frmCliente" action="insertcliente">
+		<table>
+			<tr>
+				<td><input type="text" name="nomeCliente" placeholder="Nome do cliente" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="sobrenomeCliente" placeholder="Sobrenome do cliente" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cpfCliente" placeholder="CPF do cliente" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="emailCliente" placeholder="E-mail do cliente" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="foneCliente" placeholder="Telefone do cliente" class="Caixa1"></td>
+			</tr>
+			
+			<tr>
+				<td>Endereço de entrega:</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="logradouroEnderecoEntrega" placeholder="Logradouro" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="numeroEnderecoEntrega" placeholder="Número" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="complementoEnderecoEntrega" placeholder="Complemento" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="bairroEnderecoEntrega" placeholder="Bairro" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cidadeEnderecoEntrega" placeholder="Cidade" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="estadoEnderecoEntrega" placeholder="Estado" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cepEnderecoEntrega" placeholder="CEP" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td>Endereço de cobrança:</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="logradouroEnderecoCobranca" placeholder="Logradouro" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="numeroEnderecoCobranca" placeholder="Número" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="complementoEnderecoCobranca" placeholder="Complemento" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="bairroEnderecoCobranca" placeholder="Bairro" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cidadeEnderecoCobranca" placeholder="Cidade" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="estadoEnderecoCobranca" placeholder="Estado" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cepEnderecoCobranca" placeholder="CEP" class="Caixa1"></td>
+			</tr>
+		</table>
+		<input type="submit" value="Inserir" class="Botao1" onclick="validarNovoCliente()">
+	</form>
+	<!-- <script src="scripts/validador.js"></script> -->
+</body>
+
+</html>
